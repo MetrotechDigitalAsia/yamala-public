@@ -1,0 +1,16 @@
+import { c as create_ssr_component, a as add_attribute, e as escape, b as each } from "../../chunks/ssr.js";
+const bedroomIcon = "/_app/immutable/assets/bedroom.aa452ea0.svg";
+const closedIcon = "/_app/immutable/assets/closed.5de2ef41.svg";
+const carport = "/_app/immutable/assets/carport.c049feff.svg";
+const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { data } = $$props;
+  let { units, selectedUnit } = data;
+  if ($$props.data === void 0 && $$bindings.data && data !== void 0)
+    $$bindings.data(data);
+  return `<div>${!units ? `<div class="w-full h-[50vh] flex" data-svelte-h="svelte-1ir07va"><div class="text-primary m-auto text-3xl">Belum ada Unit</div></div>` : `<div class="unit grid grid-grid-cols-1 md:grid-cols-2 py-4 md:py-0"><img class="h-[70vh]"${add_attribute("src", selectedUnit?.unit_img, 0)} alt=""> <div class="flex"><div class="m-auto w-full py-4 md:py-0 px-10 md:px-0 md:w-2/3 "><div class="flex font-light text-sm md:text-lg"><div class="relative"><button class="flex items-center"><span class="mr-2 uppercase">Type ${escape(selectedUnit?.unit_type)}</span> <svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none"><path d="M6.5 10L0.870833 0.250001L12.1292 0.25L6.5 10Z" fill="black"></path></svg></button> <div class="${"dropdown-container " + escape("hidden", true) + " absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"}" role="menu" aria-orientation="vertical" aria-labelledby="options-menu"><div class="py-1" role="none">${each(units, (item) => {
+    return `<button class="w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-indigo-100" role="menuitem">Type ${escape(item.unit_type)}</button>`;
+  })}</div></div></div> <p class="ml-9">LT ${escape(selectedUnit?.unit_lt)} LB ${escape(selectedUnit?.unit_lb)}</p></div> <p class="text-[#acacac] text-xl md:text-3xl font-extralight my-4 md:my-8" data-svelte-h="svelte-1jdznqd">The Only Things That Missing <br> is <span class="font-['sans-serif'] italic font-semibold">You And Your Family</span></p> <div class="bedroom flex items-center"><img class="w-7 mr-7"${add_attribute("src", bedroomIcon, 0)} alt=""> <p class="font-light text-primary text-base md:text-lg">${escape(selectedUnit?.unit_detail_bedroom)} KAMAR TIDUR</p></div> <div class="bedroom flex items-center my-3"><img class="w-7 mr-7"${add_attribute("src", closedIcon, 0)} alt=""> <p class="font-light text-primary text-base md:text-lg">${escape(selectedUnit?.unit_detail_bathroom)} KAMAR Mandi</p></div> <div class="bedroom flex items-center"><img class="w-7 mr-7"${add_attribute("src", carport, 0)} alt=""> <p class="font-light text-primary text-base md:text-lg">${escape(selectedUnit?.unit_detail_carport)} Carport</p></div> <div class="flex mt-9 gap-x-3" data-svelte-h="svelte-myg6e6"><button class="flex-1 text-sm md:text-base border text-primary border-primary">DOWNLOAD BROSUR</button> <button class="flex-1 text-sm md:text-base text-white py-3 bg-primary">CHAT WITH US</button></div></div></div></div>`} <div class="unit-map bg-[#F8F4F1] flex py-20"><img class="m-auto"${add_attribute("src", selectedUnit?.unit_floor_plan_img, 0)} alt=""></div></div>`;
+});
+export {
+  Page as default
+};

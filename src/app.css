@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Roboto';
+}
+
+textarea::placeholder {
+    color: white;
+    font-weight: 300;
+}
+
+textarea.c-input:focus,
+input.c-input:focus {
+    outline: none;
+}
