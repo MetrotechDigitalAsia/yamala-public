@@ -21,7 +21,7 @@
 
 <div>
 
-    {#if !units}
+    {#if units.length == 0 || !units}
     <div class="w-full h-[50vh] flex" >
         <div class="text-primary m-auto text-3xl">Belum ada Unit</div>
     </div>
