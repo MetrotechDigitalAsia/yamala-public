@@ -1,19 +1,18 @@
-import { prisma } from "$lib/server/prisma"
+import axios from "$lib/utils/axios"
+import { error } from "@sveltejs/kit"
 
 export const load = async () => {
 
-    let data
-
     try {
-        data = await prisma.galleries.findMany()
-    } catch (error) {
-        console.log(error)
-        data = false
-    }
 
+        const { data } = await axios.get('/galleryy')
 
-    return {
-        gallery: data
+        return {
+            gallery: data
+        }
+
+    } catch (err) {
+        throw error(500, err)
     }
 
 }

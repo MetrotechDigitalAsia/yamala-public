@@ -5,6 +5,7 @@
     import formPng from '$lib/assets/image/Form.png'
     import { enhance } from '$app/forms';
 
+
 </script>
 
 <div class="h-[110vh] relative" >
@@ -19,23 +20,23 @@
             <div class="md:w-[63%] md:ml-auto md:pr-16" >
                 <p class="text-white text-2xl font-light mt-8" >Contact Our Agent To <span class="font-semibold italic" style="font-family: 'Times New Roman', serif;"  > #MatchWithYamalaHaus</span></p>
                 <p class="text-white text-sm font-light leading-5 mt-4" >You can come to our marketing gallery, or you can fill below form, Our agent will contact you to help with informations.</p>
-                <form>
+                <form method="POST" use:enhance action="?/store" >
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-8 mt-8" >
                         <div class="flex border-b border-white pb-3" >
-                            <input required placeholder="Name" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                            <input required name="fullname" placeholder="Name" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                         <div class="flex border-b border-white pb-3" >
-                            <input required placeholder="Email" type="email" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                            <input required name="email" placeholder="Email" type="email" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                         <div class="flex border-b border-white pb-3" >
-                            <input required placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                            <input required name="phone" placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                         <div class="flex border-b border-white pb-3" >
-                            <input placeholder="Interested In" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                            <input name="interested_in" placeholder="Interested In" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                     </div>
                     <div class="flex border-b border-white pb-3 mt-8" >
-                        <textarea required style="background-color: transparent; color: #fff;" placeholder="Message (Optional)" class="w-full c-input bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " cols="30" rows="3"></textarea>
+                        <textarea name="message" required style="background-color: transparent; color: #fff;" placeholder="Message (Optional)" class="w-full c-input bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " cols="30" rows="3"></textarea>
                     </div>
                     <div class="flex justify-end md:justify-start">
                         <button type="submit" class=" border-2 border-white text-white py-2 px-8 mt-6 bg-[#455E45] rounded" >
