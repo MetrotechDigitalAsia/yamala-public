@@ -18,7 +18,7 @@
             </p>
             <div class="email flex items-center" >
                 <img class="w-7 mr-6" src="{email}" alt="">
-                <p class="font-light text-lg" >general@genesisindojaya.com</p>
+                <p class="font-light text-lg" >yamalahaus@gmail.com</p>
             </div>
             <div class="phone flex items-center my-5" >
                 <img class="w-7 mr-6" src="{phone}" alt="">
