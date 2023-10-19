@@ -5,10 +5,12 @@ export const load = async () => {
 
     try {
 
-        const { data } = await axios.get('/galleryy')
+        const { data } = await axios.get('/gallery')
+
+        console.log(data)
 
         return {
-            gallery: data
+            gallery: data.data
         }
 
     } catch (err) {

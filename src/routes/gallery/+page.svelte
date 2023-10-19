@@ -47,7 +47,7 @@
             <ul class="glide__slides">
                 {#each data.gallery as item}
                 <li class="glide__slide" >
-                    <img style="width: 100%; height: 80vh;"  src="" alt="">
+                    <img style="width: 100%; height: 80vh;"  src="{item.img}" alt="">
                 </li>
                 {/each}
             </ul>
@@ -66,7 +66,7 @@
                 <ul class="glide__slides">
                     {#each data.gallery as item}
                     <li class="glide__slide" >
-                        <img style="width: 100%;"  src="" alt="">
+                        <img style="width: 100%;"  src="{item.img}" alt="">
                     </li>
                     {/each}
                 </ul>

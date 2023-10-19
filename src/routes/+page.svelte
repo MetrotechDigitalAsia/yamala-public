@@ -27,7 +27,7 @@
     </div>
     {:else }
     <div class="unit grid grid-grid-cols-1 md:grid-cols-2 py-4 md:py-0">
-        <img class="h-[70vh]" src="{selectedUnit?.unit_img}" alt="">
+        <img class="h-[70vh] w-full object-cover object-bottom" src="{selectedUnit?.unit_img}" alt="">
         <div class="flex" >
             <div class="m-auto w-full py-4 md:py-0 px-10 md:px-0 md:w-2/3 " >
                 <div class="flex font-light text-sm md:text-lg"  >
