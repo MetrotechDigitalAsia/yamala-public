@@ -6,7 +6,9 @@
 
     export let data
     
-    let { units, selectedUnit } = data
+    const { units } = data
+
+    let selectedUnit = units[0]
 
     let showDropdown = false
 

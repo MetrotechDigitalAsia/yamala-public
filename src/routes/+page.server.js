@@ -1,18 +1,23 @@
-import { prisma } from "$lib/server/prisma"
+// import { prisma } from "$lib/server/prisma"
+import axios from "$lib/utils/axios"
 import { error } from "@sveltejs/kit"
 
 export const load = async () => {
 
     
     try {
-        const units = await prisma.units.findMany()
-        const selectedUnit = await prisma.units.findFirst()
+
+        const { data } = await axios.get('/unit')
         
+        console.log(data)
+
         return {
-            units,
-            selectedUnit
+            units: data.data,
         }
+
     } catch (e) {
+
+        console.log(e)
 
         throw error(500, {
             message: e
