@@ -2,7 +2,7 @@
 
     import logo from '$lib/assets/image/yamala_logo.svg'
     import bgHeader from '$lib/assets/image/bg_header.png'
-    import form from '$lib/assets/image/form.png'
+    import form from '$lib/assets/image/Form.png'
 
 </script>
 
