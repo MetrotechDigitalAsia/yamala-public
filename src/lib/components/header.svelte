@@ -28,11 +28,11 @@
     <p class="animate__animated animate__fadeInUp m-auto text-white block w-fit md:hidden text-[34px] text-center font-light" >The <span class="font-[sans] italic font-semibold" >home</span> that matches your <span class="font-[sans] italic font-semibold" >expectations</span>.</p>
 </div>
 <div class="nav-bar py-3 justify-center my-9 hidden md:flex">
-    <!-- <a href="/" class="ml-5 px-8 py-2 font-normal rounded-full  bg-primary text-white"  >UNIT</a>
+    <a href="/" class="ml-5 px-8 py-2 font-normal rounded-full  bg-primary text-white"  >UNIT</a>
     <a href="/facility" class="ml-5 px-8 py-2 font-normal rounded-full bg-primary text-white " >FASILITAS</a>
     <a href="/gallery" class="ml-5 px-8 py-2 font-normal rounded-full  bg-primary text-white " >GALERI</a>
     <a href="/location" class="ml-5 px-8 py-2 font-normal rounded-full  bg-primary text-white " >LOKASI</a>
-    <a href="/contact" class="ml-5 px-8 py-2 font-normal rounded-full bg-primary text-white " >KONTAK</a> -->
+    <a href="/contact" class="ml-5 px-8 py-2 font-normal rounded-full bg-primary text-white " >KONTAK</a>
 </div>
 
 <div class="sidebar-header h-screen -translate-x-full top-0 left-0 bg-primary absolute z-40 w-[320px] transition-all duration-300" >
