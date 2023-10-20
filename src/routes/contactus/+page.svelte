@@ -29,7 +29,7 @@
                             <input required name="email" placeholder="Email" type="email" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                         <div class="flex border-b border-white pb-3" >
-                            <input required name="phone" placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                            <input required name="phone_number" placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
                         <div class="flex border-b border-white pb-3" >
                             <input name="interested_in" placeholder="Interested In" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
