@@ -70,7 +70,7 @@
                 <ul class="glide__slides">
                     {#each data.gallery as item}
                     <li class="glide__slide" >
-                        <img style="width: 100%;" class="object-cover"  src="{item.img}" alt="">
+                        <img style="height: 50vh; width: 100%;" class="object-cover"  src="{item.img}" alt="">
                     </li>
                     {/each}
                 </ul>
