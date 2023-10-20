@@ -10,7 +10,6 @@
 
     // @ts-ignore
     export let data
-    console.log(data)
 
     // @ts-ignore
     const initCarousel = () => {
