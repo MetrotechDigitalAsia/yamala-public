@@ -21,10 +21,6 @@
                 <p class="font-light text-lg" >yamalahaus@gmail.com</p>
             </div>
             <div class="phone flex items-center my-5" >
-                <img class="w-7 mr-6" src="{phone}" alt="">
-                <p class="font-light text-lg" >021-22785000</p>
-            </div>
-            <div class="phone flex items-center my-5" >
                 <img class="w-7 mr-6" src="{whatsapp}" alt="">
                 <p class="font-light text-lg" >62 87841028259</p>
             </div>
@@ -35,7 +31,7 @@
                 </p>
             </div>
             <p class="pl-12 font-light text-lg mt-4 pr-4 md:pr-28" >
-                18 Office Park 15th Floor/F2JL. TB Simatupang No. 18Kebagusan Ps MingguJakarta Selatan 12520Indonesia
+                18 Office Park 15th Floor/F2JL. TB Simatupang No.18 Kebagusan Ps Minggu Jakarta Selatan 12520, Indonesia.
             </p>
         </div>
     </div>
