@@ -7,8 +7,6 @@ export const load = async () => {
 
         const { data } = await axios.get('/gallery')
 
-        console.log(data)
-
         return {
             gallery: data.data
         }

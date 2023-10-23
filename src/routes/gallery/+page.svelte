@@ -64,7 +64,7 @@
         <div class="carousel-mobile relative" >
             <div data-glide-el="controls" class="absolute z-10 inset-0 flex justify-between px-2" >
                 <img data-glide-dir="<" class="cursor-pointer w-8" src="{prevIcon}" alt="">
-                <img  data-glide-dir=">" class="cursor-pointer w-8" src="{nextIcon}" alt="">
+                <img data-glide-dir=">" class="cursor-pointer w-8" src="{nextIcon}" alt="">
             </div>
             <div class="glide__track" data-glide-el="track" >
                 <ul class="glide__slides">

@@ -67,9 +67,9 @@
                     <button class="flex-1 text-sm md:text-base border text-primary border-primary" >
                         DOWNLOAD BROSUR
                     </button>
-                    <button class="flex-1 text-sm md:text-base text-white py-3 bg-primary" >
+                    <a href="/contactus" class="text-center flex-1 text-sm md:text-base text-white py-3 bg-primary" >
                         CHAT WITH US
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

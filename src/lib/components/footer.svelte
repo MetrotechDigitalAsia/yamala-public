@@ -24,7 +24,8 @@
         <div class="flex px-14 md:px-0" >
             <div class="md:m-auto md:w-2/3" >
                 <p class="uppercase mb-4 md:mb-12 text-sm md:text-base" >Kontak Kami:</p>
-                <p class="text-sm md:text-xl text-justify md:text-left" >18 Office ParkTower A Level 15 Unit F2,JL. TB Simatupang Kav 18 Jakarta Selatan 12520 Indonesia.</p>
+                <p class="text-sm md:text-base" >+6287841028259</p>
+                <p class="text-sm md:text-xl text-justify md:text-left" >18 Office Park Tower A Level 15 Unit F2,JL. TB Simatupang Kav 18 Jakarta Selatan 12520 Indonesia.</p>
             </div>
         </div>
     </div>
