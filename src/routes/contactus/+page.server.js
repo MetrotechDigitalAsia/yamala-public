@@ -7,7 +7,7 @@ export const actions = {
 
         const  { data } = await axios.post('/contact', formData)
 
-        throw redirect(303, '/thank-you')
+        throw redirect(303, '/thank-you?access=1')
 
     }
 }
