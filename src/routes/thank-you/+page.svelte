@@ -4,16 +4,6 @@
     import bgHeader from '$lib/assets/image/bg_header.png'
     import form from '$lib/assets/image/Form.png'
     import { page } from '$app/stores';
-    import { onMount } from 'svelte';
-
-    const access = $page.url.searchParams.get('access') ?? 0
-
-    onMount(() => {
-        if(access != 1){
-            window.location.href = '/'
-        }
-
-    })
 
 </script>
 
