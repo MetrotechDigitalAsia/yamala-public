@@ -1,10 +1,10 @@
 import { redirect } from '@sveltejs/kit'
 
 // export const prerender = true;
-export const load = async ({ route }) => {
+export const load = async ({ route, url }) => {
 
     if(route.id?.includes('thank-you')){
-        if(!route.id?.includes('access=1')){
+        if(!url.searchParams.get('access')){
             throw redirect(307,'/');
         }
     }

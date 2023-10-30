@@ -28,15 +28,12 @@
                         <div class="flex border-b border-white pb-3" >
                             <input required name="email" placeholder="Email" type="email" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
                         </div>
-                        <div class="flex border-b border-white pb-3" >
-                            <input required name="phone_number" placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
-                        </div>
-                        <div class="flex border-b border-white pb-3" >
-                            <input name="interested_in" placeholder="Interested In" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
-                        </div>
                     </div>
                     <div class="flex border-b border-white pb-3 mt-8" >
-                        <textarea name="message" required style="background-color: transparent; color: #fff;" placeholder="Message (Optional)" class="w-full c-input bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " cols="30" rows="3"></textarea>
+                        <input required name="phone_number" placeholder="Phone" type="text" class="c-input text-white bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " >
+                    </div>
+                    <div class="flex border-b border-white pb-3 mt-8" >
+                        <textarea name="message" style="background-color: transparent; color: #fff;" placeholder="Message (Optional)" class="w-full c-input bg-transparent placeholder:text-white placeholder:font-light placeholder:text-base " cols="30" rows="3"></textarea>
                     </div>
                     <div class="flex justify-end md:justify-start">
                         <button type="submit" class=" border-2 border-white text-white py-2 px-8 mt-6 bg-[#455E45] rounded" >
